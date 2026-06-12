@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # Initialize session state for mock live data stream tracking
-if 'trade_logs' not in st.st_session_state:
+if 'trade_logs' not in st.session_state:
     st.session_state.trade_logs = []
 if 'last_update' not in st.session_state:
     st.session_state.last_update = datetime.now()
